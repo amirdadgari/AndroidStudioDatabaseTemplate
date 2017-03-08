@@ -1,7 +1,7 @@
 # AndroidStudio Database Template
 
 ##Description 
-Database template is a custom template (like BlankActivity,Fragments and other templates alike) which will make adding Database to your android app easier (using SQLiteOpenHelper and this tutorial) just right click on your App name in project section or file and select “new => database => database”.
+Database template is a custom template (like BlankActivity,Fragments and other templates alike) which will make adding Database to your android app easier (using SQLiteOpenHelper and [this tutorial](https://www.tutorialspoint.com/android/android_sqlite_database.htm)) just right click on your App name in project section or file and select “new => database => database”.
 
 ##Features
 generates database data source and database helper with one click
