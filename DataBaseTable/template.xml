@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="3"
+    name="DataBase Table"
+    description="Creates a new DataBase Table">
+
+    <category value="DataBase" />
+
+    <parameter
+        id="tableName"
+        name="Table Name"
+        type="string"
+        constraints="nonempty"
+        help="The name of the database table to create. for example if you use test class name will be 'testTable' and table name in database will be 'test'" />
+
+
+<parameter
+        id="rowsList"
+        name="Row names"
+        type="string"
+        constraints=""
+        help="The name of all the rows exept id divided by ','. for example row1,row2" />
+
+
+   <parameter
+            id="packageName"
+            name="Package name"
+            type="string"
+            constraints="package"
+            default="com.mycompany.myapp"/>
+
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+
+  
+
+</template>

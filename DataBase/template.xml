@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="3"
+    name="DataBase"
+    description="Creates a new DataBase Datasource and DBhelper class">
+
+    <category value="DataBase" />
+
+<parameter
+            id="dataBaseName"
+            name="DataBase Name"
+            type="string"
+            constraints="nonempty"
+            default="mydb.db"/>
+
+<parameter
+            id="packageName"
+            name="Package name"
+            type="string"
+            constraints="package"
+            default="com.mycompany.myapp"/>
+
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+
+</template>
